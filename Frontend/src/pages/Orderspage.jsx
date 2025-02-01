@@ -9,7 +9,7 @@ export const Orderspage = () => {
   const [orders, setOrders] = useState([]);
   const SERVER_URL=import.meta.env.VITE_SERVER_URL;
 
-  const fethcUserOrders = () => {
+  const fetchUserOrders = () => {
     setLoading(true);
 
     try {
@@ -32,7 +32,7 @@ export const Orderspage = () => {
 
   useEffect(() => {
     if (logedInUser) {
-      fethcUserOrders();
+      fetchUserOrders();
     }
   }, [logedInUser]);
 

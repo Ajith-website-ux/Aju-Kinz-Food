@@ -7,7 +7,7 @@ const Cartpage = () => {
     const [totalPrice, setTotalPrice] = useState(0);
     const [shippingFees, setShippingFees] = useState(15);
     const { cartProducts } = useContext(FoodContext);
-    console.log("cartproducts:",cartProducts)
+    console.log("cartProducts:",cartProducts)
     const navigate=useNavigate();
     useEffect(() => {
         const tPrice = cartProducts?.reduce((acc, item) => {
@@ -44,11 +44,11 @@ cartProducts?.length > 0 ?
                             <h1 className='text-3xl  text-start '>Cart summary </h1>
                             <div className=' px-4 py-7 rounded-xl bg-[var(--secondary-color)]'>
                                 <div className='flex justify-between'>
-                                    <p>Toatal items:</p>
+                                    <p>Total items:</p>
                                     <p>{cartProducts?.length}</p>
                                 </div>
                                 <div className='flex justify-between'>
-                                    <p>Toatal:</p>
+                                    <p>Total:</p>
                                     <p>₹{totalPrice}</p>
                                 </div>
                                 <div className='flex justify-between'>

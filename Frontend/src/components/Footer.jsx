@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='relative bottom-0 min-h-[200px] w-full flex flex-col'>
       <div className='w-full  md:flex flex-1 justify-between  bg-[rgba(0,0,0,0.1)] items-center px-5 py-5 text-center'>
        
-        <h1 className='text-3xl font-bold text-[var(--primary-color)]'>Aju Kinz </h1>
+        <h1 className='text-3xl font-bold text-[var(--primary-color)]'>Aju Kinz</h1>
    
             <div className='flex gap-2 flex-1 items-center justify-center '>
               <p>Good Food is destination for your food cravings</p>

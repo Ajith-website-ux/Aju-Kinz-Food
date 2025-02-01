@@ -14,8 +14,8 @@ export const customerFeedbackData = [
       rating: 4
     },
     {
-      name: "Natha Gopal",
-      email: "NathaGopal@example.com",
+      name: "NanthaGopal",
+      email: "NanthaGopal@example.com",
       profileImage: "https://unsplash.com/photos/0d_3h6X_2Z4/download?force=true&w=200",
       feedback: "The burger was juicy and flavorful, but it could have been a little hotter when served. Overall, a great experience!",
       rating: 4

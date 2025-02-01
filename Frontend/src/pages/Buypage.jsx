@@ -24,7 +24,7 @@ const SERVER_URL=import.meta.env.VITE_SERVER_URL;
     expiryYear: "",
     cvv: "",
   });
-  // const productQnty = quantityToBuy;
+  // const product Quantity = quantityToBuy;
   
   
   // Handle form input changes
@@ -83,7 +83,7 @@ const SERVER_URL=import.meta.env.VITE_SERVER_URL;
             }
           })
           .catch((err) => {
-            console.log("error placeorder:", err);
+            console.log("error placeOrder:", err);
           });
       } catch (error) {
         toast.error("Unexpected error !");
@@ -95,7 +95,7 @@ const SERVER_URL=import.meta.env.VITE_SERVER_URL;
 
   return (
     <div className="min-h-screen flex flex-col gap-2 justify-center items-center  p-6 text-start">
-      <h1 className="text-xl font-bold">Shiping detail</h1>
+      <h1 className="text-xl font-bold">Shipping detail</h1>
       <div className="md:flex  gap-4 justify-between w-full max-w-6xl">
         {/* Shipping Address */}
         <div className="bg-white p-6 rounded-lg w-full">

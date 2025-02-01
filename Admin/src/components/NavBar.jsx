@@ -15,7 +15,7 @@ const NavBar = () => {
         style={{ color: "var(--logo-color)" }}
         className={` font-bold font-sans text-3xl cursor-pointer `}
       >
-        GoodFoodDB
+        Aju Kinz Dashboard
       </div>
   <FontAwesomeIcon className='cursor-pointer' onClick={()=>setIsSidebar(true)} icon={ faUser}/>
 

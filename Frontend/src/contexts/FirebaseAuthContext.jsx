@@ -49,7 +49,7 @@ addUserToDB(uid);
       )
         .then((user) => {
           if (user) {
-            toast.success("User logined successfully !");
+            toast.success("User login successfully !");
           }
         })
         .catch((error) => {
@@ -74,7 +74,7 @@ addUserToDB(uid);
      
     }).catch((err)=>{
       toast.error("Unexpected error");
-      console.log("error reseting password",err)
+      console.log("error reset password",err)
     })
   }
 

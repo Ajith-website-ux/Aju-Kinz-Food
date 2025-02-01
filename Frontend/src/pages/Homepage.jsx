@@ -23,7 +23,7 @@ const Homepage = () => {
 
             <Hero />
             {
-                /**offerd services section... */
+                /**offered services section... */
 
             }
             <section className='w-full flex flex-col gap-5 mt-10 '>
@@ -37,13 +37,13 @@ const Homepage = () => {
 
             }
             <section className='w-full flex flex-col gap-5 mt-28'>
-                <h1 className='text-3xl  text-start'>Get excluisve discounts 💥</h1>
+                <h1 className='text-3xl  text-start'>Get exclusive discounts 💥</h1>
                 <ExclusiveOffersBar />
 
             </section>
 
             {
-                /**Offerd foods section... */
+                /**Offered foods section... */
 
             }
             <section className='w-full flex flex-col gap-5 mt-28'>

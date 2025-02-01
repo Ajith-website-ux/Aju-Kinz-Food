@@ -5,9 +5,9 @@ const AboutUs = () => {
   return (
     <div className="bg-gray-100 min-h-screen py-10 px-4">
       <div className="container mx-auto flex flex-col items-center">
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">About GoodFood</h1>
+        <h1 className="text-4xl font-bold text-gray-800 mb-4">About AjuKinz</h1>
         <p className="text-lg text-gray-600 text-center mb-8 max-w-2xl">
-          Welcome to GoodFood, a cozy corner where flavors meet community. Here, we believe in serving great food with a warm smile, creating a space for you to unwind, connect, and savor the moment.
+          Welcome to Aju Kinz, a cozy corner where flavors meet community. Here, we believe in serving great food with a warm smile, creating a space for you to unwind, connect, and savor the moment.
         </p>
 
         <div className="w-full h-[300px] max-w-4xl flex items-center justify-center">

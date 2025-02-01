@@ -107,7 +107,7 @@ const ContactUs = () => {
 
       <div className="mt-8 text-center">
         <p className="text-gray-600">
-          Or reach us directly at <a href="mailto:info@yourcafe.com" className="text-[var(--primary-color)] font-semibold">GoodFood@gmail.com</a>
+          Or reach us directly at <a href="mailto:info@yourcafe.com" className="text-[var(--primary-color)] font-semibold">Ajukinz@gmail.com</a>
         </p>
         <p className="text-gray-600">
           Call us at <span className="text-[var(--primary-color)] font-semibold">+1 (123) 456-7890</span>

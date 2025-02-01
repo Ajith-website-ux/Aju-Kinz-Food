@@ -23,8 +23,6 @@ const Navbar = () => {
         <NavLink to={'/about'} className={({isActive})=>`text-lg cursor-pointer hover:text-[var(--primary-color)] transition duration-300 ease-in-out ${isActive?'text-[var(--primary-color)]':''}`}>About</NavLink>
         <NavLink to={'/contact'} className={({isActive})=>`text-lg cursor-pointer hover:text-[var(--primary-color)] transition duration-300 ease-in-out ${isActive?'text-[var(--primary-color)]':''}`}>Contact us</NavLink>
         
-
-
       </div>
       {/* //actionicons */}
       <div className='text-lg flex gap-4 items-center '>

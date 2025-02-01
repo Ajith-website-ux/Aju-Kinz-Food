@@ -67,8 +67,8 @@ const FoodDetailpage = () => {
           })
         }
       </div>
-      <h1 className='text-lg font-bold   mt-8 '>Revie this product:</h1>
-      <p>share your thoughts about this product with cutomers</p>
+      <h1 className='text-lg font-bold   mt-8 '>Review this product:</h1>
+      <p>share your thoughts about this product with customers</p>
       <button onClick={() => setRatingPopup(true)} className='px-4 py-2 mt-2 bg-[var(--primary-color)] rounded-full'>Rate ths item</button>
 
 

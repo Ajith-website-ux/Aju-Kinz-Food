@@ -18,7 +18,7 @@ const Menupage = () => {
       {/**menu page header banner. */}
       <div className='sm:h-[250px] h-[200px] rounded-xl text-center flex  items-center justify-center bg-[var(--secondary-color)] py-6 px-2 sm:gap-4 gap-1'>
         <div className='w-[70%] h-full flex flex-col justify-end items-start  md:gap-4 gap-2 text-start'>
-          <h1 className='sm:text-4xl text-3xl font-bold text-[var(--primary-color)] '>#Menu</h1>
+          <h1 className='sm:text-4xl text-3xl font-bold text-[var(--primary-color)] '>Menu</h1>
           <p className='md:text-base text-sm hide-on-sm'>From irresistible appetizers to mouthwatering mains and delightful desserts, our menu is curated to satisfy every craving. Indulge in a world of flavors, where every dish is made with love, passion, and the finest ingredients. Whether you're dining solo or with loved ones, there's something for everyone to savor. </p>
           <div className='md:flex gap-2 items-start '>
             <div className='text-black sm:text-base text-xs sm:px-4 px-1 md:mb-0 mb-1 py-2 border bg-white rounded-lg shadow-lg flex gap-1 items-center justify-center'>
@@ -44,7 +44,7 @@ const Menupage = () => {
         <FoodCategoryBar />
       </section>
       {
-        /**foods dispaly section */
+        /**foods display section */
 
       }
 

@@ -10,7 +10,7 @@ const OrderCard = ({ orderDetail }) => {
   const orderedAt=orderDetail?.createdAt;
   const orderId=orderDetail?._id;
   const {updateOrderStatus}=useContext(AdminContext)
-  const {shipingInfo}=orderDetail||{}
+  const {shippingInfo}=orderDetail||{}
 console.log("orderdetail",orderDetail)
 
 
@@ -26,7 +26,7 @@ console.log("orderdetail",orderDetail)
               <option>Confirmed</option>
               <option>Processing</option>
               <option>Out for delivery</option>
-              <option>Delevered</option>
+              <option>Delivered</option>
             </select>
             <button
               onClick={() => updateOrderStatus(orderDetail?._id, orderStatus)}
@@ -38,10 +38,10 @@ console.log("orderdetail",orderDetail)
       <div className='flex gap-4'><p>Order Id:</p><p className='break-words text-wrap'>{orderId}</p></div>
       <div className='flex gap-4'><p>Ordered at:</p><p>{formatDate(orderedAt)}</p></div>
       <h1 className='font-semibold'>Shipping info</h1>
-      <div className='flex gap-4'><p>Customer name</p><p>{shipingInfo?.name}</p></div>
-      <div className='flex gap-4'><p>Address:</p><p>{shipingInfo?.address1},{shipingInfo?.address2},{shipingInfo?.city},{shipingInfo?.state}</p></div>
+      <div className='flex gap-4'><p>Customer name</p><p>{shippingInfo?.name}</p></div>
+      <div className='flex gap-4'><p>Address:</p><p>{shippingInfo?.address1},{shippingInfo?.address2},{shippingInfo?.city},{shippingInfo?.state}</p></div>
       <div>
-      <div className='flex gap-4'><p>Payment method:</p><p>{shipingInfo?.paymentMethod
+      <div className='flex gap-4'><p>Payment method:</p><p>{shippingInfo?.paymentMethod
 }</p></div>
         <p>Ordered items:</p>
         <div className='w-full sm:px-16 mt-2 flex flex-col gap-2'>

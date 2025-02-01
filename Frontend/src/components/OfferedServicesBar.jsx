@@ -14,7 +14,7 @@ const OfferedServicesBar = () => {
         {
             sercieName: 'Cash on delivery',
             icons: faMoneyBill,
-            smallDescription: 'Pay when product is deleivered '
+            smallDescription: 'Pay when product is delivered'
         },
         {
             sercieName: '24/7 customer support',

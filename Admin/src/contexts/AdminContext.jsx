@@ -64,7 +64,7 @@ const AdminContextProvider = ({ children }) => {
         }
       });
     } catch (erroor) {
-      toast.error("Error updateing status");
+      toast.error("Error updating status");
     }
   };
   const deleteAProduct = (_id) => {

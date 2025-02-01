@@ -39,7 +39,7 @@ export const LoginPage = () => {
 
     <div className="w-full min-h-[100vh] flex flex-col justify-center items-center">
       <ToastContainer />
-      <h1 className="text-3xl font-semibold mb-7 text-[var(--primary-color)]">The Nook Cafe</h1>
+      <h1 className="text-3xl font-semibold mb-7 text-[var(--primary-color)]">Aju Kinz</h1>
       <h1 className="text-4xl font-semibold mb-1">Admin login</h1>
       <p className="text-lg ">Hey Admin enter your details and get login to your account</p>
 

@@ -136,7 +136,7 @@ export const AddItemsView = () => {
           />
         </div>
 
-        {/*--catgory , price, subcategory */}
+        {/*--category , price, subcategory */}
         <div className="w-full flex gap-4 flex-wrap">
           <div className="flex flex-col gap-2">
             <h1>Category</h1>
@@ -185,13 +185,13 @@ export const AddItemsView = () => {
 
 
         <div className="flex flex-col gap-2">
-          <h1>Short descripton about item</h1>
+          <h1>Short description about item</h1>
           <textarea
             name="smallDescription"
             required
             onChange={handleSmallDescriptionChange}
             className="w-full px-2 py-1 border-2 border-[rgba(0,0,0,0.3)] outline-none"
-            placeholder="Short descritpion "
+            placeholder="Short description "
           />
         </div>
         <div className="flex flex-col gap-2">

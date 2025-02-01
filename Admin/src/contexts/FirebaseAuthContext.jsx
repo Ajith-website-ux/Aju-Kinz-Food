@@ -53,7 +53,7 @@ const FirebaseAuthContextProvider = ({ children }) => {
       if (user) {
        
 
-        toast.success("Logined Successfully !");
+        toast.success("Login Successfully !");
       } else {
         toast.error("Wrong Email or Password");
       }
@@ -79,7 +79,7 @@ const FirebaseAuthContextProvider = ({ children }) => {
      
     }).catch((err)=>{
       toast.error("Unexpected error");
-      console.log("error reseting password",err)
+      console.log("error reset password",err)
     })
   }
 

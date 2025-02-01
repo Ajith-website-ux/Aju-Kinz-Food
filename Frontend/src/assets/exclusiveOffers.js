@@ -23,6 +23,6 @@ export const exclusiveOffers=[
         discountPercent:30,
         foodImage:pizza,
         foodCatgory:'Pizza'
-        
+          
     }
 ]

@@ -12,7 +12,7 @@ const CartFoodCard = ({ foodDetail }) => {
   const [discountedPrice, setDiscountedPrice] = useState();
   const [discountPercentOnFood, setDiscountPercentOnFood] = useState();
   const [isQuantityBarShow, setIsQuantityBarShow] = useState(false);
-  const [quntity, setQuantity] = useState(foodDetail?.quantityToBuy
+  const [quantity, setQuantity] = useState(foodDetail?.quantityToBuy
   );
   const {updateCartProduct,removeProductFromUserCart}=useContext(FoodContext);
   // const [isDiscountOnThisFood,setIsDiscountOnThisFood]=useState(false);
@@ -51,7 +51,7 @@ const CartFoodCard = ({ foodDetail }) => {
           +
         </button>
         <div className='h-full flex items-center justify-center'>
-          {quntity}
+          {quantity}
         </div>
         <button onClick={() => setQuantity(prev => prev > 1 ? prev - 1 : prev)} className='h-full aspect-square bg-red-300  rounded-full flex items-center justify-center'>
           -
