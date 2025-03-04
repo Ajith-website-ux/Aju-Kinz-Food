@@ -7,6 +7,7 @@ const FeedbackCard = ({feedback}) => {
 <StarRating rating={feedback.rating}/>
 <p>{feedback.feedback}</p>
 <h1 className='text-lg font-semibold mt-2'>{feedback.name}</h1>
+<p>{feedback.comment}</p>
 
     </div>
   )

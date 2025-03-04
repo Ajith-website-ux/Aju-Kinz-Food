@@ -60,7 +60,7 @@ const FoodsWeOfferBar = () => {
             {
                 offeredFoods.map((food, index) => {
                    
-                    return  <div  className='flex flex-col gap-2 items-center justify-center cursor-pointer'>
+                    return  <div  className='flex flex-col gap-2 items-center justify-center cursor-pointer' key={index}>
 
                     <div style={{ backgroundImage: `url(${food.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className={`sm:h-[150px] h-[100px] aspect-square rounded-full  border-4 `} />
                     <p>{food.foodName}</p>

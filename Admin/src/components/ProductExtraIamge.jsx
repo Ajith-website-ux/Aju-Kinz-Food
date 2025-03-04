@@ -15,7 +15,7 @@ export const ProductExtraIamge = ({inputChange,fieldName}) => {
    
 
       {
-       selectedImage?<img className='h-full' src={URL.createObjectURL(selectedImage)}/>: <i class="fa-regular fa-images  text-[rgba(0,0,0,0.5)]"></i>
+       selectedImage?<img className='h-full' src={URL.createObjectURL(selectedImage)}/>: <i className="fa-regular fa-images  text-[rgba(0,0,0,0.5)]"></i>
       }
 
     </div>

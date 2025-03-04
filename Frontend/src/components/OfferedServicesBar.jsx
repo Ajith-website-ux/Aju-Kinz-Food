@@ -27,7 +27,7 @@ const OfferedServicesBar = () => {
         <div className='w-full flex gap-4 justify-between flex-wrap' >
             {
                 offeredSerivices.map((service, index) => {
-                    return <span className='bg-white min-w-[300px] h-[100px] rounded-xl px-6 py-2 border shadow-lg flex flex-1 gap-2  '>
+                    return <span key={index} className='bg-white min-w-[300px] h-[100px] rounded-xl px-6 py-2 border shadow-lg flex flex-1 gap-2  '>
 
                         <div className='h-full max-h-[60px] aspect-square rounded-full text-black text-base flex items-center justify-center bg-[var(--secondary-color)]'>
                             <FontAwesomeIcon icon={service.icons} />
