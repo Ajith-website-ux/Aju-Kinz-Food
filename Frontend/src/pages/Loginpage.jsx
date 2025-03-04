@@ -42,7 +42,10 @@ export const Loginpage = () => {
     }
   }
   return (
-  <div className="w-full md:flex gap-5 h-[100vh]  justify-center items-center">
+  <>
+  <div className="row">
+    <div className="col-lg">
+    <div className="w-full md:flex gap-5 h-[100vh]  justify-center items-center">
 
 
 
@@ -65,5 +68,8 @@ export const Loginpage = () => {
 
 
   </div>
+    </div>
+  </div>
+  </>
   );
 };
