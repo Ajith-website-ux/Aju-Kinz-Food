@@ -12,7 +12,7 @@ const Footer = () => {
         <h1 className='text-3xl font-bold text-[var(--primary-color)]'>Aju Kinz</h1>
    
             <div className='flex gap-2 flex-1 items-center justify-center '>
-              <p>Good Food is destination for your food cravings</p>
+              <p>Aju Kinz is destination for your food cravings</p>
               {/* <p>About</p>
               <p>About</p>
               <p>About</p> */}

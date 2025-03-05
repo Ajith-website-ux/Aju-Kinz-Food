@@ -44,15 +44,14 @@
     "tailwindcss": "^3.4.14",
     "vite": "^5.4.8"
   },
-  "description": "GoodFood is an restaurant website that offers wide range of foods",
+  "description": "Aju Kinz is an restaurant website that offers wide range of foods",
   "main": "eslint.config.js",
   "keywords": [
-    "GoodFood",
+    "Aju Kinz",
     "foods",
     "food",
     "ajith",
     "ajith",
-    "prajapati",
     "restuarant",
     "cafe",
     "tasty",

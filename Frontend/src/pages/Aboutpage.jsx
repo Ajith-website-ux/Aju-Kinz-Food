@@ -24,7 +24,7 @@ const AboutUs = () => {
             Our mission is simple: to bring people together over a cup of exceptional coffee and a menu crafted with passion. We believe that good food and good company make life richer.
           </p>
           <p className="text-gray-600 mb-4">
-            Whether you’re here to work, relax, or catch up with friends, GoodFood is your place to feel at home. With locally sourced ingredients and a focus on sustainability, we’re dedicated to supporting our community and the environment.
+            Whether you’re here to work, relax, or catch up with friends, Aju Kinz is your place to feel at home. With locally sourced ingredients and a focus on sustainability, we’re dedicated to supporting our community and the environment.
           </p>
         </div>
 

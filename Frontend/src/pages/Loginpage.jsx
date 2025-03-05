@@ -52,7 +52,7 @@ export const Loginpage = () => {
 <div className=" w-full h-full flex flex-col justify-center items-center">
     <ToastContainer/>
     
-    <h1 className="text-3xl font-semibold mb-7 text-[var(--primary-color)]">GoodFood</h1>
+    <h1 className="text-3xl font-semibold mb-7 text-[var(--primary-color)]">Aju Kinz</h1>
       <h1 className="text-4xl font-semibold mb-1">Welcome back</h1>
     <p className=" sbuheading "> Login to your account </p>
     

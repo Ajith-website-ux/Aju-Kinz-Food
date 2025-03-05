@@ -8,7 +8,7 @@ const SideBar = () => {
   <>
     <div className=" py-6 flex flex-col w-[300px] gap-5 bg-[var(--secondary-color)]   top-0 left-0 min-h-[100vh]  sidebar">
 <div className="w-full mb-10 px-5">
-<h1 className="text-3xl font-bold text-[var(--primary-color)]">GoodFood</h1>
+<h1 className="text-3xl font-bold text-[var(--primary-color)]">Aju Kinz</h1>
 <p>{logedInUser?.email}</p>
 <button onClick={logOut} className="border-red-600 border-2 rounded-xl hover:bg-red-600 text-black b px-4 mt-4 ">Logout</button>
 </div>
